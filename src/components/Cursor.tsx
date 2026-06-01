@@ -26,13 +26,13 @@ export function Cursor() {
           height: hovering ? 48 : 12,
           opacity: hovering ? 0.5 : 1,
         }}
-        transition={{ type: "spring", stiffness: 500, damping: 30, mass: 0.4 }}
+        transition={{ type: "spring", stiffness: 1200, damping: 40, mass: 0.2 }}
         style={{ boxShadow: "0 0 20px rgba(253,229,43,0.9), 0 0 40px rgba(253,229,43,0.5)" }}
       />
       <motion.div
         className="pointer-events-none fixed top-0 left-0 z-[9998] rounded-full border border-neon-yellow/40"
         animate={{ x: pos.x - 20, y: pos.y - 20 }}
-        transition={{ type: "spring", stiffness: 150, damping: 20 }}
+        transition={{ type: "spring", stiffness: 400, damping: 28 }}
         style={{ width: 40, height: 40 }}
       />
     </>
