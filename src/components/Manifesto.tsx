@@ -15,7 +15,7 @@ export function Manifesto() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          transition={{ duration: 0.4 }}
           className="grid lg:grid-cols-12 gap-10 items-start mb-20"
         >
           <div className="lg:col-span-5">
@@ -44,8 +44,8 @@ export function Manifesto() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1, type: "spring", stiffness: 80 }}
-              className="glass rounded-2xl p-8 hover:border-neon-blue/40 hover:shadow-[0_0_30px_rgba(179,210,239,0.2)] transition-all"
+              transition={{ delay: i * 0.06, type: "spring", stiffness: 200 }}
+              className="glass rounded-2xl p-8 hover:border-neon-blue/40 hover:shadow-[0_0_30px_rgba(179,210,239,0.2)] transition-all duration-150"
             >
               <div className="flex items-start gap-5">
                 <span className="font-display font-bold text-5xl text-neon-yellow text-glow-yellow leading-none">{p.n}</span>

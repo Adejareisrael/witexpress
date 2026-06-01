@@ -13,7 +13,7 @@ export function Contact() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.4 }}
           className="font-display font-extrabold text-[22vw] md:text-[18vw] leading-[0.85] tracking-tighter text-mist text-center"
         >
           LET'S<br />
@@ -52,7 +52,7 @@ export function Contact() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
+            transition={{ delay: 0.1 }}
             onSubmit={(e) => e.preventDefault()}
             className="lg:col-span-7 glass-strong rounded-2xl p-8 md:p-10 animate-pulse-glow-blue"
           >

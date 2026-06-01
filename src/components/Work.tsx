@@ -16,7 +16,7 @@ export function Work() {
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
-        transition={{ duration: 0.7 }}
+        transition={{ duration: 0.4 }}
         className="max-w-7xl mx-auto mb-16"
       >
         <div className="flex items-end justify-between flex-wrap gap-6">
@@ -42,9 +42,9 @@ export function Work() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
-            transition={{ duration: 0.6, delay: i * 0.08 }}
+            transition={{ duration: 0.35, delay: i * 0.05 }}
             whileHover={{ scale: 1.015 }}
-            className={`group relative ${p.span} ${p.h} glass rounded-2xl overflow-hidden transition-all duration-500 hover:border-neon-blue/60 hover:shadow-[0_0_40px_rgba(179,210,239,0.4)]`}
+            className={`group relative ${p.span} ${p.h} glass rounded-2xl overflow-hidden transition-all duration-200 hover:border-neon-blue/60 hover:shadow-[0_0_40px_rgba(179,210,239,0.4)]`}
           >
             <div className={`absolute inset-0 bg-gradient-to-br ${p.grad} opacity-80`} />
 
@@ -71,7 +71,7 @@ export function Work() {
               <span>{p.year}</span>
             </div>
 
-            <div className="absolute top-1/2 -right-32 group-hover:right-5 -translate-y-1/2 transition-all duration-500 ease-out">
+            <div className="absolute top-1/2 -right-32 group-hover:right-5 -translate-y-1/2 transition-all duration-200 ease-out">
               <span className="bg-neon-yellow text-base px-3 py-1 rounded-full font-mono text-[10px] uppercase tracking-widest font-semibold shadow-[0_0_24px_rgba(253,229,43,0.7)]">
                 {p.tag}
               </span>
@@ -84,7 +84,7 @@ export function Work() {
               </h3>
               <p className="mt-2 font-mono text-[11px] text-neon-yellow">↗ {p.result}</p>
               <div className="mt-4 h-px bg-mist/20 relative overflow-hidden">
-                <div className="absolute inset-y-0 left-0 w-0 group-hover:w-full bg-neon-blue transition-all duration-700" />
+                <div className="absolute inset-y-0 left-0 w-0 group-hover:w-full bg-neon-blue transition-all duration-300" />
               </div>
             </div>
           </motion.a>

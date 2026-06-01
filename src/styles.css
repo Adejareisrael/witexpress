@@ -170,8 +170,8 @@
   100% { transform: translateY(100vh); }
 }
 
-.animate-pulse-glow-yellow { animation: pulse-glow-yellow 3s ease-in-out infinite; }
-.animate-pulse-glow-blue { animation: pulse-glow-blue 2.5s ease-in-out infinite; }
-.animate-spin-slow { animation: spin-slow 60s linear infinite; }
-.animate-spin-reverse { animation: spin-slow 90s linear infinite reverse; }
-.animate-float-orb { animation: float-orb 14s ease-in-out infinite; }
+.animate-pulse-glow-yellow { animation: pulse-glow-yellow 2s ease-in-out infinite; }
+.animate-pulse-glow-blue { animation: pulse-glow-blue 2s ease-in-out infinite; }
+.animate-spin-slow { animation: spin-slow 45s linear infinite; }
+.animate-spin-reverse { animation: spin-slow 65s linear infinite reverse; }
+.animate-float-orb { animation: float-orb 9s ease-in-out infinite; }

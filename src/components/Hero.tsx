@@ -52,7 +52,7 @@ export function Hero() {
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.3 }}
+        transition={{ delay: 0.1 }}
         className="absolute top-6 left-6 right-6 flex justify-between items-center font-mono text-[10px] uppercase tracking-[0.3em] text-mist/60 z-10"
       >
         <span className="text-mist">◎ Voltcraft <span className="text-mist/40">/ Creative Agency</span></span>
@@ -64,7 +64,7 @@ export function Hero() {
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
+          transition={{ delay: 0.15 }}
           className="font-mono text-xs uppercase tracking-[0.4em] text-neon-blue mb-8"
         >
           ⟶ A Digital Creative Agency · est. 2018
@@ -73,7 +73,7 @@ export function Hero() {
         <motion.h1
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.5, duration: 1, type: "spring" }}
+          transition={{ delay: 0.2, duration: 0.5, type: "spring", stiffness: 180 }}
           className="font-display font-extrabold text-[18vw] md:text-[14vw] leading-[0.85] tracking-tighter text-mist animate-pulse-glow-yellow"
         >
           VOLT<span className="text-neon-yellow">/</span>CRAFT
@@ -82,7 +82,7 @@ export function Hero() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.9 }}
+          transition={{ delay: 0.35 }}
           className="mt-10 max-w-2xl mx-auto"
         >
           <p className="text-mist/80 text-base md:text-xl font-light">
@@ -93,7 +93,7 @@ export function Hero() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.1 }}
+          transition={{ delay: 0.45 }}
           className="mt-12 flex flex-wrap items-center justify-center gap-3 font-mono text-[11px] uppercase tracking-widest"
         >
           <a href="#contact" data-cursor-hover className="bg-neon-yellow text-base px-6 py-3 rounded-full font-semibold hover:shadow-[0_0_30px_rgba(253,229,43,0.7)] transition-all">

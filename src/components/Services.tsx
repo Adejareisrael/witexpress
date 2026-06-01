@@ -51,7 +51,7 @@ function TypedLine({ text, active }: { text: string; active: boolean }) {
       i++;
       setOut(text.slice(0, i));
       if (i >= text.length) clearInterval(t);
-    }, 14);
+    }, 8);
     return () => clearInterval(t);
   }, [active, text]);
   return (
@@ -77,7 +77,7 @@ export function Services() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          transition={{ duration: 0.4 }}
           className="mb-20 flex items-end justify-between flex-wrap gap-6"
         >
           <div>
@@ -101,10 +101,10 @@ export function Services() {
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: i * 0.08 }}
+                transition={{ delay: i * 0.05 }}
                 onMouseEnter={() => setActiveIdx(i)}
                 onClick={() => setActiveIdx(i)}
-                className={`w-full text-left glass rounded-xl p-5 flex items-center gap-5 transition-all duration-300 ${
+                className={`w-full text-left glass rounded-xl p-5 flex items-center gap-5 transition-all duration-150 ${
                   activeIdx === i ? "border-neon-blue/60 shadow-[0_0_24px_rgba(179,210,239,0.35)]" : "hover:border-mist/30"
                 }`}
               >
@@ -136,7 +136,7 @@ export function Services() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.3 }}
+            transition={{ delay: 0.15 }}
             className="lg:col-span-7 glass-strong rounded-2xl p-1 self-start"
           >
             <div className="flex items-center gap-2 px-4 py-2.5 border-b border-mist/10">

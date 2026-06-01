@@ -23,7 +23,7 @@ export function Process() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          transition={{ duration: 0.4 }}
           className="mb-16 flex items-end justify-between flex-wrap gap-6"
         >
           <div>
@@ -48,12 +48,12 @@ export function Process() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
-                transition={{ delay: i * 0.08, type: "spring", stiffness: 80 }}
+                transition={{ delay: i * 0.05, type: "spring", stiffness: 200 }}
                 className={`relative flex md:grid md:grid-cols-2 gap-6 items-center ${i % 2 === 0 ? "" : "md:[&>*:first-child]:col-start-2"}`}
               >
                 <div className="absolute left-6 md:left-1/2 w-3 h-3 rounded-full bg-neon-yellow -translate-x-1/2 shadow-[0_0_16px_rgba(253,229,43,0.8)]" />
 
-                <div className={`ml-14 md:ml-0 glass rounded-2xl p-7 hover:border-neon-blue/40 hover:shadow-[0_0_30px_rgba(179,210,239,0.2)] transition-all ${i % 2 === 0 ? "md:mr-12 md:text-right" : "md:ml-12"}`}>
+                <div className={`ml-14 md:ml-0 glass rounded-2xl p-7 hover:border-neon-blue/40 hover:shadow-[0_0_30px_rgba(179,210,239,0.2)] transition-all duration-150 ${i % 2 === 0 ? "md:mr-12 md:text-right" : "md:ml-12"}`}>
                   <div className={`flex items-center gap-3 mb-3 ${i % 2 === 0 ? "md:justify-end" : ""}`}>
                     <span className="font-display font-bold text-3xl text-neon-yellow text-glow-yellow">{s.n}</span>
                     <span className="font-mono text-[10px] uppercase tracking-widest text-mist/50">{s.dur}</span>
@@ -70,7 +70,7 @@ export function Process() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          transition={{ duration: 0.4 }}
           className="glass-strong rounded-3xl p-10 md:p-16 relative overflow-hidden"
         >
           <div className="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-neon-blue/15 blur-[100px] animate-float-orb" />
@@ -83,7 +83,7 @@ export function Process() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: i * 0.1 }}
+                transition={{ delay: i * 0.06 }}
               >
                 <p className="font-display font-bold text-6xl md:text-7xl text-neon-yellow text-glow-yellow leading-none">{s.num}</p>
                 <p className="mt-3 font-mono text-xs uppercase tracking-widest text-mist/60">{s.lbl}</p>

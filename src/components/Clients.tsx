@@ -36,7 +36,7 @@ export function Clients() {
         </motion.p>
 
         <div className="overflow-hidden mb-20">
-          <div className="flex gap-12 md:gap-16 animate-[marquee_40s_linear_infinite] whitespace-nowrap">
+          <div className="flex gap-12 md:gap-16 animate-[marquee_22s_linear_infinite] whitespace-nowrap">
             {[...clients, ...clients].map((c, i) => (
               <span
                 key={i}
@@ -55,7 +55,7 @@ export function Clients() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
+              transition={{ delay: i * 0.06 }}
               className="glass rounded-2xl p-7 flex flex-col gap-6 hover:border-neon-yellow/40 hover:shadow-[0_0_24px_rgba(253,229,43,0.15)] transition-all"
             >
               <span className="font-display font-bold text-5xl text-neon-yellow leading-none">"</span>
