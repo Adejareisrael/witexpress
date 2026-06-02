@@ -5,7 +5,10 @@ export function Contact() {
   const [hover, setHover] = useState(false);
 
   return (
-    <section id="contact" className="relative pt-16 md:pt-24 lg:pt-32 pb-12 px-6 md:px-12 overflow-hidden">
+    <section
+      id="contact"
+      className="relative pt-16 md:pt-24 lg:pt-32 pb-12 px-6 md:px-12 overflow-hidden"
+    >
       <div className="absolute inset-x-0 bottom-0 h-[60vh] bg-gradient-to-t from-neon-blue/10 to-transparent pointer-events-none" />
 
       <div className="max-w-[1600px] mx-auto relative">
@@ -27,7 +30,11 @@ export function Contact() {
             viewport={{ once: true }}
             className="lg:col-span-5 space-y-8"
           >
-            <p className="font-mono text-xs uppercase tracking-[0.4em] text-neon-blue">// 06 — Start a project</p>
+
+            <p className="font-mono text-xs uppercase tracking-[0.4em] text-neon-blue">
+              // 06 — Start a project
+            </p>
+
             <p className="font-display text-2xl md:text-3xl text-mist leading-tight">
               Send a transmission. We respond within <span className="text-neon-yellow">48h</span>, in clear language, with no decks attached.
             </p>
@@ -35,11 +42,11 @@ export function Contact() {
             <div className="space-y-4 font-mono text-sm">
               <div className="flex justify-between glass rounded-lg p-4">
                 <span className="text-mist/50 uppercase text-xs tracking-widest">Signal</span>
-                <span className="text-mist">hello@witexpress.com</span>
+                <span className="text-mist">info@witexpress.co</span>
               </div>
               <div className="flex justify-between glass rounded-lg p-4">
                 <span className="text-mist/50 uppercase text-xs tracking-widest">Coordinates</span>
-                <span className="text-mist">Berlin · DE</span>
+                <span className="text-mist">Olowora Lagos</span>
               </div>
               <div className="flex justify-between glass rounded-lg p-4">
                 <span className="text-mist/50 uppercase text-xs tracking-widest">Status</span>
