@@ -17,18 +17,18 @@ const stats = [
 
 export function Process() {
   return (
-    <section id="process" className="relative py-32 px-6 md:px-12">
+    <section id="process" className="relative py-16 md:py-24 lg:py-32 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4 }}
-          className="mb-16 flex items-end justify-between flex-wrap gap-6"
+          className="mb-8 md:mb-16 flex items-end justify-between flex-wrap gap-6"
         >
           <div>
             <p className="font-mono text-xs uppercase tracking-[0.4em] text-neon-blue mb-4">// 05 — How we work</p>
-            <h2 className="font-display font-bold text-6xl md:text-8xl text-mist leading-none">
+            <h2 className="font-display font-bold text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-mist leading-none">
               A clear<br />
               <span className="text-neon-yellow text-glow-yellow italic">/10-week arc.</span>
             </h2>
@@ -38,7 +38,7 @@ export function Process() {
           </p>
         </motion.div>
 
-        <div className="relative mb-20">
+        <div className="relative mb-10 md:mb-20">
           <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-neon-blue/40 via-neon-yellow/30 to-transparent" />
 
           <div className="space-y-6">
@@ -71,7 +71,7 @@ export function Process() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4 }}
-          className="glass-strong rounded-3xl p-10 md:p-16 relative overflow-hidden"
+          className="glass-strong rounded-3xl p-8 md:p-16 relative overflow-hidden"
         >
           <div className="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-neon-blue/15 blur-[100px] animate-float-orb" />
           <div className="absolute -bottom-32 -left-32 w-96 h-96 rounded-full bg-neon-yellow/10 blur-[120px] animate-float-orb" style={{ animationDelay: "-5s" }} />
@@ -85,7 +85,7 @@ export function Process() {
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.06 }}
               >
-                <p className="font-display font-bold text-6xl md:text-7xl text-neon-yellow text-glow-yellow leading-none">{s.num}</p>
+                <p className="font-display font-bold text-4xl md:text-6xl lg:text-7xl text-neon-yellow text-glow-yellow leading-none">{s.num}</p>
                 <p className="mt-3 font-mono text-xs uppercase tracking-widest text-mist/60">{s.lbl}</p>
               </motion.div>
             ))}

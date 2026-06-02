@@ -5,7 +5,7 @@ export function Contact() {
   const [hover, setHover] = useState(false);
 
   return (
-    <section id="contact" className="relative pt-32 pb-12 px-6 md:px-12 overflow-hidden">
+    <section id="contact" className="relative pt-16 md:pt-24 lg:pt-32 pb-12 px-6 md:px-12 overflow-hidden">
       <div className="absolute inset-x-0 bottom-0 h-[60vh] bg-gradient-to-t from-neon-blue/10 to-transparent pointer-events-none" />
 
       <div className="max-w-[1600px] mx-auto relative">
@@ -14,13 +14,13 @@ export function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4 }}
-          className="font-display font-extrabold text-[22vw] md:text-[18vw] leading-[0.85] tracking-tighter text-mist text-center"
+          className="font-display font-extrabold text-[18vw] md:text-[16vw] lg:text-[14vw] leading-[0.85] tracking-tighter text-mist text-center"
         >
           LET'S<br />
           <span className="text-neon-yellow text-glow-yellow italic">BUILD.</span>
         </motion.h2>
 
-        <div className="mt-20 grid lg:grid-cols-12 gap-8 items-start">
+        <div className="mt-10 md:mt-16 lg:mt-20 grid lg:grid-cols-12 gap-8 items-start">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -54,7 +54,7 @@ export function Contact() {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
             onSubmit={(e) => e.preventDefault()}
-            className="lg:col-span-7 glass-strong rounded-2xl p-8 md:p-10 animate-pulse-glow-blue"
+            className="lg:col-span-7 glass-strong rounded-2xl p-6 md:p-10 animate-pulse-glow-blue"
           >
             <div className="grid md:grid-cols-2 gap-5">
               <Field label="01 / Name" placeholder="Your name" />
@@ -77,7 +77,7 @@ export function Contact() {
               data-cursor-hover
               onMouseEnter={() => setHover(true)}
               onMouseLeave={() => setHover(false)}
-              className={`mt-8 w-full font-display font-bold text-2xl md:text-3xl uppercase tracking-tight py-6 rounded-xl transition-all duration-300 ${
+              className={`mt-8 w-full font-display font-bold text-xl md:text-3xl uppercase tracking-tight py-5 md:py-6 rounded-xl transition-all duration-300 ${
                 hover
                   ? "bg-accolade text-neon-yellow border border-neon-yellow shadow-[0_0_40px_rgba(253,229,43,0.7)]"
                   : "bg-neon-yellow text-base shadow-[0_0_24px_rgba(253,229,43,0.5)]"
@@ -88,7 +88,7 @@ export function Contact() {
           </motion.form>
         </div>
 
-        <div className="mt-24 pt-8 border-t border-mist/10 flex flex-wrap justify-between items-center gap-4 font-mono text-[10px] uppercase tracking-widest text-mist/50">
+        <div className="mt-12 md:mt-24 pt-8 border-t border-mist/10 flex flex-wrap justify-between items-center gap-4 font-mono text-[10px] uppercase tracking-widest text-mist/50">
           <span>© Witexpress / 2026 — All wavelengths reserved.</span>
           <span className="flex gap-6">
             <a href="#" data-cursor-hover className="hover:text-neon-yellow transition-colors">Instagram</a>

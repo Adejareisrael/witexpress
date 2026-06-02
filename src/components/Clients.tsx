@@ -1,7 +1,18 @@
 import { motion } from "framer-motion";
 
 const clients = [
-  "HELION", "LUMEN", "MORI", "FREQUENCY.FM", "ONYX", "PHANTOM CO.", "NORTH/SOUTH", "ARC LABS", "KOSMOS", "FIELD", "VAPOR", "OUTLINE",
+  "HELION",
+  "LUMEN",
+  "MORI",
+  "FREQUENCY.FM",
+  "ONYX",
+  "PHANTOM CO.",
+  "NORTH/SOUTH",
+  "ARC LABS",
+  "KOSMOS",
+  "FIELD",
+  "VAPOR",
+  "OUTLINE",
 ];
 
 const testimonials = [
@@ -24,7 +35,7 @@ const testimonials = [
 
 export function Clients() {
   return (
-    <section className="relative py-24 px-6 md:px-12 border-y border-mist/10">
+    <section className="relative py-12 md:py-24 px-6 md:px-12 border-y border-mist/10">
       <div className="max-w-7xl mx-auto">
         <motion.p
           initial={{ opacity: 0 }}
@@ -35,7 +46,7 @@ export function Clients() {
           // Trusted by teams at
         </motion.p>
 
-        <div className="overflow-hidden mb-20">
+        <div className="overflow-hidden mb-10 md:mb-20">
           <div className="flex gap-12 md:gap-16 animate-[marquee_22s_linear_infinite] whitespace-nowrap">
             {[...clients, ...clients].map((c, i) => (
               <span

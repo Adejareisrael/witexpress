@@ -57,7 +57,7 @@ export function Hero() {
       >
         <span className="text-mist">◎ Witexpress <span className="text-mist/40">/ Creative Agency</span></span>
         <span className="hidden md:inline">Berlin · New York · Remote</span>
-        <span className="text-neon-yellow">● Accepting briefs — Q3 2026</span>
+        <span className="text-neon-yellow hidden sm:inline">● Accepting briefs — Q3 2026</span>
       </motion.div>
 
       <div className="relative z-10 text-center px-6">

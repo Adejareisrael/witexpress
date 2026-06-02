@@ -1,17 +1,17 @@
 import { motion } from "framer-motion";
 
 const projects = [
-  { id: "01", title: "Helion Protocol", client: "Helion Labs", tag: "BRAND / WEB", year: "2026", result: "+312% sign-ups in 90 days", span: "md:col-span-7 md:row-span-2", h: "h-[420px] md:h-[560px]", grad: "from-neon-blue/30 via-accolade to-base" },
-  { id: "02", title: "Nocturne OS", client: "Lumen", tag: "PRODUCT / UX", year: "2025", result: "Series B raised post-relaunch", span: "md:col-span-5", h: "h-[280px]", grad: "from-neon-yellow/20 via-accolade to-base" },
+  { id: "01", title: "Helion Protocol", client: "Helion Labs", tag: "BRAND / WEB", year: "2026", result: "+312% sign-ups in 90 days", span: "sm:col-span-2 md:col-span-7 md:row-span-2", h: "h-[320px] sm:h-[380px] md:h-[560px]", grad: "from-neon-blue/30 via-accolade to-base" },
+  { id: "02", title: "Nocturne OS", client: "Lumen", tag: "PRODUCT / UX", year: "2025", result: "Series B raised post-relaunch", span: "md:col-span-5", h: "h-[260px] md:h-[280px]", grad: "from-neon-yellow/20 via-accolade to-base" },
   { id: "03", title: "Kinetic Atlas", client: "Mori Studio", tag: "CAMPAIGN", year: "2025", result: "Cannes Bronze · 2025", span: "md:col-span-5", h: "h-[260px]", grad: "from-accolade via-base to-neon-blue/20" },
-  { id: "04", title: "Signal/03", client: "Frequency.fm", tag: "IDENTITY", year: "2025", result: "Rebrand → 4.1M new users", span: "md:col-span-4", h: "h-[340px]", grad: "from-neon-yellow/30 via-base to-accolade" },
-  { id: "05", title: "Vapor Index", client: "Onyx Capital", tag: "WEB / DATA", year: "2024", result: "Awwwards SOTD", span: "md:col-span-4", h: "h-[340px]", grad: "from-accolade to-neon-blue/30" },
-  { id: "06", title: "Echo Garden", client: "Phantom Co.", tag: "WEB / MOTION", year: "2024", result: "FWA of the Day", span: "md:col-span-4", h: "h-[340px]", grad: "from-base via-accolade to-neon-yellow/20" },
+  { id: "04", title: "Signal/03", client: "Frequency.fm", tag: "IDENTITY", year: "2025", result: "Rebrand → 4.1M new users", span: "md:col-span-4", h: "h-[280px] md:h-[340px]", grad: "from-neon-yellow/30 via-base to-accolade" },
+  { id: "05", title: "Vapor Index", client: "Onyx Capital", tag: "WEB / DATA", year: "2024", result: "Awwwards SOTD", span: "md:col-span-4", h: "h-[280px] md:h-[340px]", grad: "from-accolade to-neon-blue/30" },
+  { id: "06", title: "Echo Garden", client: "Phantom Co.", tag: "WEB / MOTION", year: "2024", result: "FWA of the Day", span: "md:col-span-4", h: "h-[280px] md:h-[340px]", grad: "from-base via-accolade to-neon-yellow/20" },
 ];
 
 export function Work() {
   return (
-    <section id="work" className="relative py-32 px-6 md:px-12">
+    <section id="work" className="relative py-16 md:py-24 lg:py-32 px-6 md:px-12">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -22,7 +22,7 @@ export function Work() {
         <div className="flex items-end justify-between flex-wrap gap-6">
           <div>
             <p className="font-mono text-xs uppercase tracking-[0.4em] text-neon-blue mb-4">// 03 — Case studies</p>
-            <h2 className="font-display font-bold text-6xl md:text-8xl text-mist leading-none">
+            <h2 className="font-display font-bold text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-mist leading-none">
               Recent<br />
               <span className="text-neon-yellow text-glow-yellow italic">/work.</span>
             </h2>
@@ -33,7 +33,7 @@ export function Work() {
         </div>
       </motion.div>
 
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 gap-4 md:gap-6">
         {projects.map((p, i) => (
           <motion.a
             key={p.id}

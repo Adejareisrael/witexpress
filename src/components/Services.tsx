@@ -62,7 +62,7 @@ export function Services() {
   const active = services[activeIdx];
 
   return (
-    <section id="services" className="relative py-32 px-6 md:px-12">
+    <section id="services" className="relative py-16 md:py-24 lg:py-32 px-6 md:px-12">
       <div className="absolute inset-0 grid-mesh opacity-30 pointer-events-none" />
 
       <div className="max-w-7xl mx-auto relative">
@@ -71,17 +71,17 @@ export function Services() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4 }}
-          className="mb-20 flex items-end justify-between flex-wrap gap-6"
+          className="mb-10 md:mb-16 lg:mb-20 flex items-end justify-between flex-wrap gap-6"
         >
           <div>
             <p className="font-mono text-xs uppercase tracking-[0.4em] text-neon-blue mb-4">// 02 — What we do</p>
-            <h2 className="font-display font-bold text-6xl md:text-8xl text-mist leading-none">
+            <h2 className="font-display font-bold text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-mist leading-none">
               Services<br />
-              <span className="text-neon-yellow text-glow-yellow italic">/in five tracks.</span>
+              <span className="text-neon-yellow text-glow-yellow italic">/in four tracks.</span>
             </h2>
           </div>
           <p className="font-mono text-xs text-mist/50 max-w-xs">
-            One team, five disciplines, no hand-offs. Brief us on any track — most clients end up working with us across two or three.
+            One team, four disciplines, no hand-offs. Brief us on any track — most clients end up working with us across two or three.
           </p>
         </motion.div>
 

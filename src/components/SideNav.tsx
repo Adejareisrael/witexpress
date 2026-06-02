@@ -15,7 +15,7 @@ export function SideNav() {
       initial={{ opacity: 0, x: 30 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ delay: 0.6, type: "spring", stiffness: 100 }}
-      className="fixed right-6 top-1/2 -translate-y-1/2 z-50"
+      className="hidden md:block fixed right-6 top-1/2 -translate-y-1/2 z-50"
     >
       <div className="glass-strong rounded-full p-3 flex flex-col gap-2">
         {items.map((it, i) => {

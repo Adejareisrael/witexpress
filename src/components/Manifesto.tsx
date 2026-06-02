@@ -9,18 +9,18 @@ const principles = [
 
 export function Manifesto() {
   return (
-    <section id="about" className="relative py-32 px-6 md:px-12">
+    <section id="about" className="relative py-16 md:py-24 lg:py-32 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4 }}
-          className="grid lg:grid-cols-12 gap-10 items-start mb-20"
+          className="grid lg:grid-cols-12 gap-8 items-start mb-10 md:mb-16 lg:mb-20"
         >
           <div className="lg:col-span-5">
             <p className="font-mono text-xs uppercase tracking-[0.4em] text-neon-blue mb-4">// 01 — Studio</p>
-            <h2 className="font-display font-bold text-6xl md:text-7xl text-mist leading-none">
+            <h2 className="font-display font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-mist leading-none">
               A studio<br />
               <span className="text-neon-yellow text-glow-yellow italic">/built on bets.</span>
             </h2>
