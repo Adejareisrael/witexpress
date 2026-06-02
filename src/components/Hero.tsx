@@ -56,7 +56,7 @@ export function Hero() {
         className="absolute top-6 left-6 right-6 flex justify-between items-center font-mono text-[10px] uppercase tracking-[0.3em] text-mist/60 z-10"
       >
         <span className="text-mist">◎ Witexpress <span className="text-mist/40">/ Creative Agency</span></span>
-        <span className="hidden md:inline">Berlin · New York · Remote</span>
+        <span className="hidden md:inline">Lagos · London · Remote</span>
         <span className="text-neon-yellow hidden sm:inline">● Accepting briefs — Q3 2026</span>
       </motion.div>
 
@@ -74,7 +74,7 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2, duration: 0.5, type: "spring", stiffness: 180 }}
-          className="font-display font-extrabold text-[18vw] md:text-[14vw] leading-[0.85] tracking-tighter text-mist animate-pulse-glow-yellow"
+          className="font-display font-extrabold text-[11.5vw] md:text-[14vw] leading-[0.85] tracking-tighter text-mist animate-pulse-glow-yellow"
         >
           WIT<span className="text-neon-yellow">/</span>EXPRESS
         </motion.h1>

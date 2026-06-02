@@ -102,7 +102,7 @@ export function Contact() {
             <a href="#" data-cursor-hover className="hover:text-neon-yellow transition-colors">Are.na</a>
             <a href="#" data-cursor-hover className="hover:text-neon-yellow transition-colors">Read.cv</a>
           </span>
-          <span className="text-neon-blue">v4.20 / Berlin · 22:47 CET</span>
+          <span className="text-neon-blue">v4.20 / Lagos · 22:47 WAT</span>
         </div>
       </div>
     </section>
