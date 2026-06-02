@@ -56,7 +56,7 @@ export function Hero() {
         className="absolute top-6 left-6 right-6 flex justify-between items-center font-mono text-[10px] uppercase tracking-[0.3em] text-mist/60 z-10"
       >
         <span className="text-mist">◎ Witexpress <span className="text-mist/40">/ Creative Agency</span></span>
-        <span className="hidden md:inline">Lagos · London · Remote</span>
+        <span className="hidden md:inline">Olowora · Remote</span>
         <span className="text-neon-yellow hidden sm:inline">● Accepting briefs — Q3 2026</span>
       </motion.div>
 
