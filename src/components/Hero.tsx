@@ -55,7 +55,7 @@ export function Hero() {
         transition={{ delay: 0.1 }}
         className="absolute top-6 left-6 right-6 flex justify-between items-center font-mono text-[10px] uppercase tracking-[0.3em] text-mist/60 z-10"
       >
-        <span className="text-mist">◎ Voltcraft <span className="text-mist/40">/ Creative Agency</span></span>
+        <span className="text-mist">◎ Witexpress <span className="text-mist/40">/ Creative Agency</span></span>
         <span className="hidden md:inline">Berlin · New York · Remote</span>
         <span className="text-neon-yellow">● Accepting briefs — Q3 2026</span>
       </motion.div>
@@ -76,7 +76,7 @@ export function Hero() {
           transition={{ delay: 0.2, duration: 0.5, type: "spring", stiffness: 180 }}
           className="font-display font-extrabold text-[18vw] md:text-[14vw] leading-[0.85] tracking-tighter text-mist animate-pulse-glow-yellow"
         >
-          VOLT<span className="text-neon-yellow">/</span>CRAFT
+          WIT<span className="text-neon-yellow">/</span>EXPRESS
         </motion.h1>
 
         <motion.div
@@ -107,12 +107,12 @@ export function Hero() {
 
       <div className="absolute bottom-0 left-0 right-0 border-t border-mist/10 py-4 overflow-hidden glass">
         <div className="flex gap-12 whitespace-nowrap font-mono text-xs uppercase tracking-widest text-mist/60 justify-center">
-          <span>◇ Brand Identity</span>
-          <span className="text-neon-yellow">◆ Web Design</span>
-          <span>◇ Product UX</span>
-          <span className="text-neon-blue">◆ Motion & 3D</span>
-          <span>◇ Creative Direction</span>
-          <span className="text-neon-yellow">◆ Campaigns</span>
+          <span>◇ Branding</span>
+          <span className="text-neon-yellow">◆ Creative Strategy</span>
+          <span>◇ Product Design</span>
+          <span className="text-neon-blue">◆ Website Development</span>
+          <span>◇ Branding</span>
+          <span className="text-neon-yellow">◆ Creative Strategy</span>
         </div>
       </div>
     </section>

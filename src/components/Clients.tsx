@@ -6,7 +6,7 @@ const clients = [
 
 const testimonials = [
   {
-    quote: "Voltcraft didn't redesign our brand — they sharpened how the entire company talks about itself. The work paid for itself in one quarter.",
+    quote: "Witexpress didn't redesign our brand — they sharpened how the entire company talks about itself. The work paid for itself in one quarter.",
     name: "Marie Aubert",
     role: "CMO, Helion Labs",
   },

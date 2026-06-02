@@ -4,38 +4,31 @@ import { useEffect, useRef, useState } from "react";
 const services = [
   {
     id: "01",
-    name: "Brand Identity",
+    name: "Branding",
     tagline: "Systems, not just logos.",
     desc: "Naming, visual systems, voice, and guidelines that scale across every surface — from product UI to packaging.",
     deliverables: ["Strategy", "Visual System", "Guidelines", "Rollout"],
   },
   {
     id: "02",
-    name: "Web Design & Build",
-    tagline: "Sites that earn the scroll.",
-    desc: "Marketing sites, landing pages and digital flagships engineered in React with motion-first interaction design.",
-    deliverables: ["UX Architecture", "Art Direction", "Build", "CMS"],
+    name: "Creative Strategy",
+    tagline: "Thinking before making.",
+    desc: "Positioning, narrative, and creative platform — the thinking that every later decision is anchored to.",
+    deliverables: ["Positioning", "Narrative", "Campaigns", "Direction"],
   },
   {
     id: "03",
-    name: "Product & UX",
+    name: "Product Design",
     tagline: "Interfaces with a point of view.",
     desc: "Design partnerships for SaaS, fintech, and consumer products — from 0→1 prototypes to mature design systems.",
     deliverables: ["Discovery", "Prototypes", "Design Systems", "Handover"],
   },
   {
     id: "04",
-    name: "Motion & 3D",
-    tagline: "Pixels with weight.",
-    desc: "Brand films, product reveals, interactive 3D and WebGL — choreography for screens of every size.",
-    deliverables: ["Storyboards", "Animation", "WebGL", "Sound"],
-  },
-  {
-    id: "05",
-    name: "Creative Direction",
-    tagline: "Embedded with your team.",
-    desc: "Ongoing creative leadership for in-house teams — campaigns, launches, brand evolution and quality control.",
-    deliverables: ["Retainer", "Campaigns", "Art Direction", "Mentoring"],
+    name: "Website Development",
+    tagline: "Sites that earn the scroll.",
+    desc: "Marketing sites, landing pages and digital flagships engineered in React with motion-first interaction design.",
+    deliverables: ["UX Architecture", "Art Direction", "Build", "CMS"],
   },
 ];
 

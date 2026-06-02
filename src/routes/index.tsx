@@ -12,10 +12,18 @@ import { Contact } from "@/components/Contact";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Voltcraft — Digital Creative Agency" },
-      { name: "description", content: "Voltcraft is a digital creative agency designing brands, products and web experiences for ambitious teams. Based in Berlin & New York." },
-      { property: "og:title", content: "Voltcraft — Digital Creative Agency" },
-      { property: "og:description", content: "Brand, web, product and motion for teams ready to break the template." },
+      { title: "Witexpress — Digital Creative Agency" },
+      {
+        name: "description",
+        content:
+          "Witexpress is a digital creative agency designing brands, products and web experiences for ambitious teams.",
+      },
+      { property: "og:title", content: "Witexpress — Digital Creative Agency" },
+      {
+        property: "og:description",
+        content:
+          "Branding, creative strategy, product design and website development for teams ready to break the template.",
+      },
     ],
   }),
   component: Index,

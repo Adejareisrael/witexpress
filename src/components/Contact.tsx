@@ -35,7 +35,7 @@ export function Contact() {
             <div className="space-y-4 font-mono text-sm">
               <div className="flex justify-between glass rounded-lg p-4">
                 <span className="text-mist/50 uppercase text-xs tracking-widest">Signal</span>
-                <span className="text-mist">hello@voltcraft.studio</span>
+                <span className="text-mist">hello@witexpress.com</span>
               </div>
               <div className="flex justify-between glass rounded-lg p-4">
                 <span className="text-mist/50 uppercase text-xs tracking-widest">Coordinates</span>
@@ -89,7 +89,7 @@ export function Contact() {
         </div>
 
         <div className="mt-24 pt-8 border-t border-mist/10 flex flex-wrap justify-between items-center gap-4 font-mono text-[10px] uppercase tracking-widest text-mist/50">
-          <span>© Voltcraft Studio / 2026 — All wavelengths reserved.</span>
+          <span>© Witexpress / 2026 — All wavelengths reserved.</span>
           <span className="flex gap-6">
             <a href="#" data-cursor-hover className="hover:text-neon-yellow transition-colors">Instagram</a>
             <a href="#" data-cursor-hover className="hover:text-neon-yellow transition-colors">Are.na</a>

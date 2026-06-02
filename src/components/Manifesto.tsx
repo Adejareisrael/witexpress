@@ -27,8 +27,8 @@ export function Manifesto() {
           </div>
           <div className="lg:col-span-7 space-y-5 text-mist/80 text-lg leading-relaxed">
             <p>
-              Voltcraft is a <span className="text-neon-blue">22-person creative agency</span> working with founders, CMOs and product leaders who want
-              to look — and behave — unmistakable.
+              Witexpress is a <span className="text-neon-blue">creative agency</span> working with
+              founders, CMOs and product leaders who want to look — and behave — unmistakable.
             </p>
             <p className="text-mist/60 text-base">
               We've built brands and digital products for companies at every stage: pre-seed startups about to launch, scale-ups rebranding for IPO,
